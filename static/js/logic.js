@@ -54,7 +54,7 @@ d3.json(url).then(({ features }) => {
 
 
 /*//Making the legend
-let legend = L.control({ position:'topright' });
+let legend = L.control({ position:'bottomright' });
   legend.onAdd = function() {
     let div = L.DomUtil.create("div", "info legend");
     let grades = [-10, 10, 30, 50, 70, 90];
